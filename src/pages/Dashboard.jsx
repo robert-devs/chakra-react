@@ -44,7 +44,11 @@ export default function Dashboard() {
             </CardBody>
             <Divider color="gray.200" />
             <CardFooter>
-              <HStack>
+              <HStack
+                display="flex"
+                alignItems="center"
+                justifyContent="space-between"
+              >
                 <Button variant="ghost" leftIcon={<ViewIcon />}>
                   Watch
                 </Button>
